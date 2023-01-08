@@ -1,16 +1,17 @@
-# flutter_anime_quotes
+# Anime Quote Generator
 
-A new Flutter project.
+A Flutter Application that generates a random anime quote!.
 
-## Getting Started
+## How to Use
+1. Clone the repository
+2. Run `flutter pub get`
+3. Run `flutter run -d web-server`
 
-This project is a starting point for a Flutter application.
+## Libraries that were used
+- http
+- flutter_bloc
+- equatable
+- json_serializable
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+1. The abilitiy to generate a random quote at the click of a button
